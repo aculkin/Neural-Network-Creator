@@ -1,16 +1,40 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import {connect} from 'react-redux'
+import CanvasDraw from 'react-canvas-draw'
 
 /**
  * COMPONENT
  */
 export const UserHome = props => {
-  const {email} = props
-
   return (
     <div>
-      <h3>Welcome, {email}</h3>
+      <div>Hi, this is the home page</div>
+
+      {/* <div display={'flex'} justify-content={'sapce-between'} width={'50px'}>
+        <button
+          onClick={() => {
+            this.saveableCanvas.clear()
+          }}
+        >
+          Clear
+        </button>
+        <button
+          onClick={() => {
+            this.saveableCanvas.undo()
+          }}
+        >
+          Undo
+        </button>
+      </div>
+      <CanvasDraw
+        ref={canvasDraw => (this.saveableCanvas = canvasDraw)}
+        brushColor={'black'}
+        brushRadius={10}
+        lazyRadius={5}
+        canvasWidth={500}
+        canvasHeight={500}
+      /> */}
     </div>
   )
 }

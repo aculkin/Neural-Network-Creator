@@ -19,3 +19,26 @@ form div {
   margin: 1em;
   display: inline-block;
 }
+
+td {
+  height: 8px;
+  width: 8px;
+  background-color: lightgray;
+  padding: 0px;
+  margin: 0px;
+}
+
+.black {
+  background-color: black;
+}
+
+table {
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
+
+#zbeubeu {
+  width: 300px;
+  height: 300px;
+}
